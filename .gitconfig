@@ -1,0 +1,17 @@
+[user]
+	name = Ilya Boltnev
+	email = ilya@boltnev.com
+[core]
+	editor = vim
+[credential]
+	helper = cache --timeout=3600
+[alias]
+co = checkout
+ci = commit
+co = checkout
+go = commit
+st = status
+br = branch
+hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+type = cat-file -t
+dump = cat-file -p
