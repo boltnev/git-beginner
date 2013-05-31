@@ -5,3 +5,4 @@ set autoindent
 set noswapfile
 set autochdir
 set nobackup
+syntax on
