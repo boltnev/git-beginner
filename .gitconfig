@@ -2,11 +2,12 @@
     fscache = true
 [user]
     name = Ilya Boltnev
-    email = roadtouniverse@gmail.com
+    email = roadtouniverse@yandex.ru
 [alias]
     st = status
     safemerge = merge --no-commit --no-ff
     hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+    cancel = reset HEAD~1
 [color]
     ui = true
 [push]
