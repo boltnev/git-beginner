@@ -1,3 +1,7 @@
+CURRENT_DIR:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
+
+path:
+	echo "export PATH=$$PATH:$(CURRENT_DIR)/bin/" >> ~/.bashrc
 
 
 git:
