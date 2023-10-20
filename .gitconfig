@@ -8,6 +8,9 @@
     safemerge = merge --no-commit --no-ff
     hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
     cancel = reset HEAD~1
+    update = !git fetch && git merge  origin/\"$(git rev-parse --abbrev-ref HEAD)\"
+    up = update
+
 [color]
     ui = true
 [push]
